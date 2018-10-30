@@ -286,13 +286,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Camera.cs" />
+    <Compile Include="Assets\Scripts\CameraControl.cs" />
     <Compile Include="Assets\Scripts\FactoryBuilding.cs" />
     <Compile Include="Assets\Scripts\GameEngine.cs" />
     <Compile Include="Assets\Scripts\HumanArcher.cs" />
+    <Compile Include="Assets\Scripts\HumanBullet.cs" />
+    <Compile Include="Assets\Scripts\HumanRange.cs" />
     <Compile Include="Assets\Scripts\HumanSwordsman.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MeleeUnit.cs" />
+    <Compile Include="Assets\Scripts\Moving.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\RangedUnit.cs" />
     <Compile Include="Assets\Scripts\ResourceBuilding.cs" />
@@ -300,8 +303,11 @@
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\UndeadArcher.cs" />
+    <Compile Include="Assets\Scripts\UndeadBullet.cs" />
+    <Compile Include="Assets\Scripts\UndeadRange.cs" />
     <Compile Include="Assets\Scripts\UndeadSwordsman.cs" />
     <Compile Include="Assets\Scripts\Unit.cs" />
+    <Compile Include="Assets\Scripts\Zoom.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
